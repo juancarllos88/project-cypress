@@ -1,4 +1,4 @@
-context("Teste para aula", () => {
+context("Projeto utilizando cypress", () => {
   beforeEach(() => {
     cy.visit("https://maratona-discover-devfinance.netlify.app/");
     cy.get("#data-table tbody tr").should("have.length", 0);
